@@ -1,0 +1,48 @@
+@media only screen and (min-device-width: 300px) and (max-device-width: 580px) {
+  body {
+    width: 100%;
+  }
+
+  #headerwrap {
+    margin: auto;
+    text-align: center;
+  }
+
+  div.profile {
+    margin: auto;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact,
+  .resume {
+    text-align: center;
+    margin-bottom: 9px;
+  }
+
+  aside {
+    margin-top: 20px;
+  }
+
+  div.detail {
+    margin-top: 15px;
+  }
+
+  #social {
+    margin: auto;
+    text-align: center;
+  }
+
+  #workwrap {
+    margin: auto;
+    text-align: center;
+  }
+
+  #workwrap h1 {
+    font-size: 40px;
+  }
+}
