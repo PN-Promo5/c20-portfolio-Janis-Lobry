@@ -107,15 +107,6 @@ p {
   background-color: #fff;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
-img.shadow {
-  box-shadow: 4px 4px 2px 1px rgba(37, 37, 37, 0.4);
-}
-
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -147,6 +138,11 @@ img.shadow {
   font-weight: bold;
 }
 
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
 #aboutwrap h1 {
   color: #ffffff;
   padding-top: 10px;
@@ -154,11 +150,6 @@ img.shadow {
   letter-spacing: 4px;
   font-size: 80px;
   font-weight: bold;
-}
-
-#headerwrap h4 {
-  font-weight: 400;
-  color: #ffffff
 }
 
 @media (max-width: 768px) {
@@ -172,18 +163,6 @@ img.shadow {
   margin-bottom: 70px;
 }
 
-/* body{
-  background: #333;
-  color: #ddd;
-}
-h1{
-  color: white;
-  font-size: 2.25em;
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
-}*/
 .col-sm-6, .col-sm-12 {
   background: #02c09966;
   border-radius: 45px;
@@ -237,6 +216,7 @@ h1{
 
 #cv {
   margin-top: 5px;
+  width: 100%;
 }
 
 #social {
@@ -293,6 +273,15 @@ h1{
   font-weight: bold;
 }
 
+#workwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+h2#porfolio-title {
+  font-size: 60px;
+}
+
 .anchor {
   opacity: 0;
   color: #00c099
@@ -300,11 +289,6 @@ h1{
 
 .anchor:hover {
   opacity: 0.4;
-}
-
-#workwrap h4 {
-  font-weight: 400;
-  color: #ffffff
 }
 
 #aboutwrap {
@@ -489,9 +473,14 @@ h1{
 
 .credits {
   color: #999;
+  font-size: 7px;
 }
 
 img, svg {
   display: block;
   margin: 0 auto;
+}
+
+a.text-primary {
+  font-weight: bold;
 }
